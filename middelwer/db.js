@@ -5,10 +5,10 @@ const mysql = require('mysql');
 
 // database connection and query promisify
 var conn = mysql.createPool({
-    host     : 'localhost',
-    user     : 'username',
-    password : 'password',
-    database : 'database',
+    host     : 'sql8.freemysqlhosting.net',
+    user     : 'sql8742954',
+    password : 'MPgKSbEs42',
+    database : 'sql8742954',
     connectionLimit : 100
   });
 

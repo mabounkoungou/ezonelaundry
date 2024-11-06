@@ -39,7 +39,7 @@ app.use(session({
 // set default timeZone
 
 conn.query("SELECT timezone FROM tbl_master_shop where id=1", (err, row)=>{
-    if (err)  throw new err;
+    if (err)  throw err;
     setTZ(row[0].timezone)
 });
 
